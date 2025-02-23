@@ -34,112 +34,112 @@ theme_override_constants/h_separation = 20
 theme_override_constants/v_separation = 20
 columns = 4
 
-[node name="Panel" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel2" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel2" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel3" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel3" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel4" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel4" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel5" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel5" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel6" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel6" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel7" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel7" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel8" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel8" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel9" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel9" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel10" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel10" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel11" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel11" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel12" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel12" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel13" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel13" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel14" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel14" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel15" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel15" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_wp3kd")
 
-[node name="Panel16" type="Panel" parent="PanelContainer/MarginContainer/GridContainer"]
+[node name="Panel16" type="Panel" parent="PanelContainer/MarginContainer/GridContainer" groups=["GridPanels"]]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 size_flags_horizontal = 3
