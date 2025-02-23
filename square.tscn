@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://dirj1co2qhkud"]
+
+[ext_resource type="Script" path="res://square.gd" id="1_k05s7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7fn00"]
+bg_color = Color(0.831236, 0.515265, 0.209515, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="Square" type="Panel"]
+offset_right = 150.0
+offset_bottom = 150.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_7fn00")
+script = ExtResource("1_k05s7")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 70
+text = "16"
+horizontal_alignment = 1
+vertical_alignment = 1

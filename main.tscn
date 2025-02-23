@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://be3vg05c1wqol"]
+
+[ext_resource type="PackedScene" uid="uid://b80xlf3skwoq8" path="res://grid.tscn" id="1_3roqp"]
+[ext_resource type="Script" path="res://main.gd" id="1_ibr3i"]
+[ext_resource type="PackedScene" uid="uid://dirj1co2qhkud" path="res://square.tscn" id="2_wocqw"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ibr3i")
+square_scene = ExtResource("2_wocqw")
+
+[node name="Grid" parent="." instance=ExtResource("1_3roqp")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -350.0
+offset_right = 350.0
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
