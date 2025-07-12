@@ -78,5 +78,5 @@ layout_mode = 2
 [node name="Square16" parent="PanelContainer/MarginContainer/GridContainer" instance=ExtResource("1_0orfb")]
 layout_mode = 2
 
-[node name="Squares" type="Control" parent="."]
+[node name="PlayerSquares" type="Control" parent="."]
 layout_mode = 2

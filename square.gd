@@ -1,27 +1,32 @@
 class_name Square
 extends Panel
 
-var occupied: bool = false
-var move_amount: int
+signal occupied_signal
+
+@export_range(0,50) var movement_weight: float = 15
+
+@onready var occupied: bool = false
+@onready var is_moving: bool = false
+
+var end_position: Vector2
 
 
 func _process(delta):
-	if Input.is_action_just_pressed("ui_right"):
-		self.position = self.position + Vector2(move_amount,0)
-	elif Input.is_action_just_pressed("ui_left"):
-		self.position = self.position + Vector2(-move_amount,0)
-	elif Input.is_action_just_pressed("ui_up"):
-		self.position = self.position + Vector2(0, -move_amount)
-	elif Input.is_action_just_pressed("ui_down"):
-		self.position = self.position + Vector2(0, move_amount)
+	if is_moving:
+		self.position = self.position.lerp(end_position, delta*movement_weight)
+		# Check whem movement finished
+		if self.position.distance_squared_to(end_position) < 0.1:
+			is_moving = false
 
 
-func set_move_amount(x):
-	move_amount = x
+func move(direction):
+	end_position = direction
+	is_moving = true
 
 
 func _on_area_2d_area_entered(area):
 	occupied = true
+	occupied_signal.emit
 
 
 func _on_area_2d_area_exited(area):
