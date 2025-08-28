@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="2048"
-run/main_scene="res://main.tscn"
+run/main_scene="uid://b80xlf3skwoq8"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Constants="*res://globals/Constants.gd"
 
 [display]
 
